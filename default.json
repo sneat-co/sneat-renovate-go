@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "config:base",
+    ":semanticCommits",
+    ":automergeMinor"
+  ],
+  "packageRules": [
+    {
+      "groupName": "sneat non major deps",
+      "groupSlug": "sneat-minor-patch",
+      "matchPackagePatterns": [
+        "github.com/dal-go/",
+        "github.com/strongo/"
+        "github.com/sneat-co/"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin"
+      ],
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
+      "groupName": "3d-parties non major deps",
+      "groupSlug": "3d-parties-minor-patch",
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin"
+      ],
+      "automerge": true,
+      "automergeType": "branch"
+    }
+  ]
+}
