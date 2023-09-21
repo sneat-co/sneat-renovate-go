@@ -10,7 +10,7 @@
       "groupSlug": "sneat-minor-patch",
       "matchPackagePatterns": [
         "github.com/dal-go/",
-        "github.com/strongo/"
+        "github.com/strongo/",
         "github.com/sneat-co/"
       ],
       "matchUpdateTypes": [
