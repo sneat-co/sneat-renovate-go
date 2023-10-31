@@ -27,7 +27,8 @@
       "matchUpdateTypes": [
         "minor",
         "patch",
-        "pin"
+        "pin",
+        "digest"
       ],
       "automerge": true,
       "automergeType": "branch"
