@@ -6,6 +6,21 @@
   ],
   "packageRules": [
     {
+      "groupName": "go toolchain",
+      "matchManagers": ["gomod"],
+      "matchPackageNames": ["golang"],
+      "separateMinorPatch": true,
+      "separateMultipleMajor": true,
+      "automerge": false
+    },
+    {
+      "groupName": "go toolchain patches",
+      "matchManagers": ["gomod"],
+      "matchPackageNames": ["golang"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    },
+    {
       "groupName": "sneat non major deps",
       "groupSlug": "sneat-minor-patch",
       "matchPackagePatterns": [
