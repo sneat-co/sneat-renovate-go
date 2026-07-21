@@ -9,6 +9,13 @@
     "GONOPROXY": "github.com/sneat-co/*",
     "GONOSUMDB": "github.com/sneat-co/*"
   },
+  "hostRules": [
+    {
+      "matchHost": "https://github.com/sneat-co",
+      "hostType": "go",
+      "token": "{{ secrets.RENOVATE_GITHUB_COM_TOKEN }}"
+    }
+  ],
   "packageRules": [
     {
       "groupName": "go toolchain",
