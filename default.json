@@ -4,6 +4,11 @@
     ":semanticCommits",
     ":automergeMinor"
   ],
+  "customEnvVariables": {
+    "GOPRIVATE": "github.com/sneat-co/*",
+    "GONOPROXY": "github.com/sneat-co/*",
+    "GONOSUMDB": "github.com/sneat-co/*"
+  },
   "packageRules": [
     {
       "groupName": "go toolchain",
