@@ -36,6 +36,11 @@
     {
       "groupName": "sneat non major deps",
       "groupSlug": "sneat-minor-patch",
+      "description": "Own libraries (dal-go, strongo, sneat-co) are never gated by a consumer's schedule or release-age policy: the fleet must be on the latest release always (founder rule 2026-09-02).",
+      "schedule": [
+        "at any time"
+      ],
+      "minimumReleaseAge": null,
       "matchPackagePatterns": [
         "github.com/dal-go/",
         "github.com/strongo/",
