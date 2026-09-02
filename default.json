@@ -9,6 +9,7 @@
     "GONOPROXY": "github.com/sneat-co/*",
     "GONOSUMDB": "github.com/sneat-co/*"
   },
+  "platformAutomerge": true,
   "hostRules": [
     {
       "matchHost": "https://github.com/sneat-co",
@@ -46,7 +47,7 @@
         "pin"
       ],
       "automerge": true,
-      "automergeType": "branch"
+      "automergeType": "pr"
     },
     {
       "groupName": "3d-parties non major deps",
@@ -58,7 +59,7 @@
         "digest"
       ],
       "automerge": true,
-      "automergeType": "branch"
+      "automergeType": "pr"
     }
   ]
 }
