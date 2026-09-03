@@ -9,6 +9,7 @@
     "GONOPROXY": "github.com/sneat-co/*",
     "GONOSUMDB": "github.com/sneat-co/*"
   },
+  "timezone": "Europe/Dublin",
   "platformAutomerge": true,
   "hostRules": [
     {
@@ -52,7 +53,11 @@
         "pin"
       ],
       "automerge": true,
-      "automergeType": "pr"
+      "automergeType": "pr",
+      "automergeSchedule": [
+        "after 3am and before 7am"
+      ],
+      "platformAutomerge": false
     },
     {
       "groupName": "3d-parties non major deps",
