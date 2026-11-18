@@ -53,11 +53,7 @@
         "pin"
       ],
       "automerge": true,
-      "automergeType": "pr",
-      "automergeSchedule": [
-        "after 3am and before 7am"
-      ],
-      "platformAutomerge": false
+      "automergeType": "pr"
     },
     {
       "groupName": "3d-parties non major deps",
